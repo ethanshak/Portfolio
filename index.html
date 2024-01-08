@@ -3,43 +3,68 @@
     <head>
         <title>Portfolio</title>
         <link href="./Resources/style.css" rel="stylesheet">
-
+        <link href="./Resources/script.js" rel="">
+        <link href="./Resources/contact.html" rel="">
+        <link href="./Resources/Images/..." rel="">
 
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <h1 id="header">Ethan Wilson</h1>
+            <div class="navigation">
+                <nav>
+                    <ul class="headings">
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Languages</a></li>
+                        <li><a href="./Resources/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h1 id="Banner">Ethan Wilson</h1>
+            </div>
         </header>
         <main>
-            <div>
+            <div class="brief-intro">
                 <h2>About Me</h2>
-                <article>
-                    <p></p>
-                    <img >
-                </article>
+                <article class="description">
+                    <p>Hi, I'm Ethan Wilson and I am learning to be a full-stack Engineer in coding. I am currently learning through the codecademy online course which will earn me a professional certificate.<br>
+                        I have only been coding for less than a year and have only completed small projects alongside my course, so that I can put the knowledge that I have learned into practice.<br>
+                        My portfolio will share sone of the projects that I have completed throughout my course.</p>
+                        
+                    <img src="/Resources/Images/..." alt="Portrait of Ethan Wilson" class="portrait">
+                </article> 
             </div>
 
-            <div>
+            <div class="projects">
                 <h2>Projects</h2>
-                <section>
-                    <ol>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ol>
-                </section>
+                <div class="selection">
+                    <div class="project-image">
+                        <img src="/Resources/Images/...">
+                    </div>
+                    <div class="project-content">
+                        <h3>Fotomatic</h3>
+                        <p>A project displaying responsive design from tablet to desktop. The page was built using HTML, CSS and Chrome DevTools.</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="/Resources/Images/...">
+                    </div>
+                    <div class="project-content">
+                        <h3>Dasmoto's Arts and Crafts</h3>
+                        <p>A static website displaying basic HTML and CSS syntax.</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="/Resources/Images/...">
+                    </div>
+                    <div class="project-content">
+                        <h3>Third Project</h3>
+                        <p>Brief summary and technology used to build</p>
+                    </div>
+                </div>
             </div>
 
             <div>
-                <h2>Skills</h2>
+                <h2>languages</h2>
             </div>
 
         </main>
