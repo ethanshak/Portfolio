@@ -12,7 +12,7 @@
         <header>
             <div class="navigation">
                 <nav>
-                    <ul class="headings">
+                    <ul>
                         <li><a href="#">About Me</a></li>
                         <li><a href="#">Projects</a></li>
                         <li><a href="#">Languages</a></li>
@@ -20,25 +20,26 @@
                     </ul>
                 </nav>
             </div>
-            <div>
-                <h1 id="Banner">Ethan Wilson</h1>
+            <div id="Banner">
+                <h1>Ethan Wilson</h1>
             </div>
         </header>
         <main>
-            <div class="brief-intro">
-                <h2>About Me</h2>
-                <article class="description">
-                    <p>Hi, I'm Ethan Wilson and I am learning to be a full-stack Engineer in coding. I am currently learning through the codecademy online course which will earn me a professional certificate.<br>
+            <div id="about-me">
+                <div class="description-container">
+                    <div class="description">
+                        <h2>About Me</h2>
+                        <p>Hi, I'm Ethan Wilson and I am learning to be a full-stack Engineer in coding. I am currently learning through the codecademy online course which will earn me a professional certificate.<br>
                         I have only been coding for less than a year and have only completed small projects alongside my course, so that I can put the knowledge that I have learned into practice.<br>
                         My portfolio will share sone of the projects that I have completed throughout my course.</p>
-                        
+                    </div>         
                     <img src="/Resources/Images/..." alt="Portrait of Ethan Wilson" class="portrait">
-                </article> 
+                </div>  
             </div>
 
-            <div class="projects">
-                <h2>Projects</h2>
-                <div class="selection">
+            <section class="side-heading"><h2>Projects</h2></section>
+            <div id="projects">
+                <div class="selection">        
                     <div class="project-image">
                         <img src="/Resources/Images/...">
                     </div>
@@ -46,15 +47,19 @@
                         <h3>Fotomatic</h3>
                         <p>A project displaying responsive design from tablet to desktop. The page was built using HTML, CSS and Chrome DevTools.</p>
                     </div>
+                </div>
+                <div class="selection">
                     <div class="project-image">
                         <img src="/Resources/Images/...">
                     </div>
                     <div class="project-content">
                         <h3>Dasmoto's Arts and Crafts</h3>
-                        <p>A static website displaying basic HTML and CSS syntax.</p>
+                        <p>A static website displaying basic HTML and CSS syntax.</p>                        
                     </div>
+                </div>
+                <div class="selection">
                     <div class="project-image">
-                        <img src="/Resources/Images/...">
+                       <img src="/Resources/Images/...">
                     </div>
                     <div class="project-content">
                         <h3>Third Project</h3>
@@ -63,8 +68,40 @@
                 </div>
             </div>
 
-            <div>
-                <h2>languages</h2>
+            <div id="languages">
+                <div class="language-content">
+                    <h2>Languages</h2>
+                    <p>Here are the languages that I used in my projects to create them and also the programmes I used to create them on!</p>
+                </div>
+                <div class="images-container">
+                    <div class="image">
+                        <img src="./Resources/Images/html.png" alt="HTML Logo" id="html">
+                    </div>
+                    <div class="image">
+                        <img src="./Resources/Images/css.png" alt="CSS Logo" id="css">
+                    </div>
+                    <div class="image">
+                        <img src="./Resources/Images/javascript.png" alt="JavaScript Logo" id="javascript">
+                    </div>
+                    <div class="image">
+                        <img src="./Resources/Images/terminal.png" alt="Terminal Logo" id="terminal">
+                    </div>
+                    <div class="image">
+                        <img src="./Resources/Images/git.png" alt="Git Logo" id="git">
+                    </div>
+                    <div class="image">
+                        <img src="./Resources/Images/chrome.png" alt="Chrome Logo" id="chrome">
+                    </div>
+                    <div class="image">
+                        <img src="./Resources/Images/git bash.png" alt="Git Bash Logo" id="git-bash">
+                    </div>
+                    <div class="image">
+                        <img src="./Resources/Images/visual studio code.png" alt="Visual Studio Code Logo" id="vs-code">
+                    </div>
+                    <div class="image">
+                        <img src="./Resources/Images/github.png" alt="GitHub Logo" id="github">
+                    </div>
+                </div>
             </div>
 
         </main>
