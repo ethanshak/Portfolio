@@ -1,10 +1,27 @@
 html {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(241, 24, 24);
     background-color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    max-width: 1440px;
+    align-content: center;
 }
 
+body {
+    background-color: #f3f3f3;
+}
+
+h2 {
+    color: white;
+    font-size: 1.5em;
+    
+    
+}
+
+/* header */
 
 .navigation {
     display: flex;
@@ -29,3 +46,223 @@ nav li a {
 }
 
 
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(3, 3, 99)
+}
+
+/*main - about me */
+
+#about-me {
+    display: block;
+    border-top: 5px solid rgb(3, 3, 99);
+    border-bottom: 3px solid rgb(3, 3, 99);
+    background-color: rgb(3, 3, 99);
+    align-content: center;
+}
+
+.description-container {
+    display: flex; 
+    padding: 25px;
+    align-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.description {
+    flex: 70;
+    margin-right: 18px;
+ 
+}
+
+.portrait {
+    flex: 30;
+    width: 350px;
+    border-radius: 12px;
+    flex-shrink: 0;
+    background-color: white;
+    color: rgb(3, 3, 99);
+}
+
+.description h2 {
+    color: white;
+}
+
+/*main - projects */
+
+.side-heading h2 {
+    color: white;
+    font-size: 1.5em;
+    margin: 40px;
+    background-color: rgb(3, 3, 99);
+    width: 20%;
+}
+
+#projects {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 5%;
+    background-color: #f3f3f3;
+    padding: 10px;
+}
+
+.selection {
+    flex: 1;
+    padding: 2rem;
+    margin: 0px 1.25rem;
+    background-color: white;
+    border: 1px solid rgb(3, 3, 99);
+    height: fit-content;
+}
+
+.selection .project-image {
+    width: 90%;
+    height: 60%;
+    margin: 0 auto;
+    border: 1px solid rgb(3, 3, 99);
+}
+
+.selection .project-content {
+    padding: 2.5rem 0;
+}
+
+.selection .project-content h3 {
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(3, 3, 99);
+    
+}
+
+.selection .project-content p {
+    font-size: 14px;
+    color: rgb(3, 3, 99);
+}
+
+@media only screen and (max-width: 850px) {
+    #projects {
+        padding: 1rem;
+    }
+
+    .selection {
+        margin: 0px .5rem;
+        padding: 1rem;
+    }
+
+    .side-heading h2 {
+        width: 15%;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #projects {
+        flex-flow: column;
+        padding: 0;
+    }
+
+    .selection {
+        margin: 0;
+        padding: 1.25rem 1rem 0 1rem;
+    }
+
+    .side-heading h2 {
+        width: 15%;
+    }
+}
+
+/*main - languages*/
+
+#languages {
+    padding: 4rem 0;
+}
+
+#languages .language-content {
+    padding: 40px;
+    margin-bottom: 5rem;
+    background-color: rgb(3, 3, 99)
+
+}
+
+#languages .language-content h2 {
+    font-size: 1.5em;
+}
+
+#languages .images-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0 auto
+}
+
+#languages .images-container .image {
+   padding: 20px 20px;
+   padding-right: 20px;
+}
+
+.image img {
+    height: 100px;
+    width: 100px;
+}
+
+/*button*/
+
+#button {
+    margin: 0;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+}
+
+#color-change {
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgb(3, 3, 99);
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(3, 3, 99);
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+}
+
+/*footer*/
+
+
+
+/*contact page*/
+
+.contact-details {
+    color: rgb(3, 3, 99);
+}
+
+.contact-content {
+    padding: 40px;
+    color: rgb(3, 3, 99);
+}
+
+.contact-content h2 {
+    color: rgb(3, 3, 99);
+}
+
+.contract-addresses {
+    display: flex;
+}
+
+.contact-addresses ul li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.contact-addresses ul img {
+    width: 200px;
+    height: 200px;
+}
